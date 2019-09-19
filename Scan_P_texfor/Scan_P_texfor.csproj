@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Jose P. Castillo\AppData\Local\Apps\2.0\VT13K1AP.2X1\CQ8GC826.1QA\scan..tion_3b3f5ffb9b1782f5_0001.0000_6064cb4d5b1c1d18\Scan_P_texfor.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64BE87CD-0C38-40E3-962D-5C19BAC879EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Scan_P_texfor</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Scan_P_texfor</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Lib_SIF">
+      <HintPath>lib\Lib_SIF.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="C1.Win.C1FlexGrid.2">
+      <HintPath>lib\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="C1Cajasf">
+      <HintPath>lib\C1Cajasf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Module1.cs" />
+    <Compile Include="cajas_01.cs" />
+    <Compile Include="Cajas01.cs" />
+    <Compile Include="Cajas01_D.cs" />
+    <Compile Include="Cajas02.cs" />
+    <Compile Include="Cajas02_c.cs" />
+    <Compile Include="Cajas03.cs" />
+    <Compile Include="Cajas04.cs" />
+    <Compile Include="Cajas05.cs" />
+    <Compile Include="Cajas05_I.cs" />
+    <Compile Include="Cajas10.cs" />
+    <Compile Include="Cajas11.cs" />
+    <Compile Include="Cajas12.cs" />
+    <Compile Include="Cajas20.cs" />
+    <Compile Include="Cajas21.cs" />
+    <Compile Include="Cajas22.cs" />
+    <Compile Include="Cajas25.cs" />
+    <Compile Include="Cajas35.cs" />
+    <Compile Include="Cajas99.cs" />
+    <Compile Include="cajas_esp.cs" />
+    <Compile Include="cajas_esp_c.cs" />
+    <Compile Include="cajas_s1.cs" />
+    <Compile Include="empresas.cs" />
+    <Compile Include="menu.cs" />
+    <Compile Include="Version.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cajas_esp.resx" />
+    <EmbeddedResource Include="Cajas01.resx" />
+    <EmbeddedResource Include="Cajas01_D.resx" />
+    <EmbeddedResource Include="Cajas02.resx" />
+    <EmbeddedResource Include="Cajas02_c.resx" />
+    <EmbeddedResource Include="Cajas03.resx" />
+    <EmbeddedResource Include="Cajas04.resx" />
+    <EmbeddedResource Include="Cajas05.resx" />
+    <EmbeddedResource Include="Cajas05_I.resx" />
+    <EmbeddedResource Include="Cajas10.resx" />
+    <EmbeddedResource Include="Cajas11.resx" />
+    <EmbeddedResource Include="Cajas12.resx" />
+    <EmbeddedResource Include="Cajas20.resx" />
+    <EmbeddedResource Include="Cajas22.resx" />
+    <EmbeddedResource Include="Cajas25.resx" />
+    <EmbeddedResource Include="Cajas35.resx" />
+    <EmbeddedResource Include="Cajas99.resx" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="menu.resx" />
+    <EmbeddedResource Include="Resources.resx" />
+    <EmbeddedResource Include="Version.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
